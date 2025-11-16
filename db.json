@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@kenyanturf.com",
+      "password": "admin123",
+      "role": "admin",
+      "teamName": "Admin Team",
+      "location": "Nairobi, Kenya",
+      "wallet": 100000
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user",
+      "teamName": "Simba SC",
+      "location": "Nairobi, Kenya",
+      "wallet": 2500
+    },
+    {
+      "id": "c752",
+      "email": "castro.kimaru2@student.moringaschool.com",
+      "password": "1234",
+      "teamName": "droid"
+    },
+    {
+      "id": "a5fe",
+      "email": "castro.kimaru2@student.moringaschool.com",
+      "password": "1234"
+    }
+  ],
+  "turfs": [
+    {
+      "id": "1",
+      "name": "Kasarani Stadium",
+      "location": "Nairobi, Kenya",
+      "coordinates": {
+        "lat": -1.2195,
+        "lng": 36.8941
+      },
+      "pricePerHour": 5000,
+      "amenities": [
+        "Floodlights",
+        "Changing Rooms",
+        "Parking"
+      ],
+      "rating": 4.5,
+      "images": [
+        "/assets/turf1.jpg"
+      ],
+      "availability": [
+        {
+          "date": "2025-11-15",
+          "slots": [
+            "10:00",
+            "14:00",
+            "16:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mombasa Beach Turf",
+      "location": "Mombasa, Kenya",
+      "coordinates": {
+        "lat": -4.0435,
+        "lng": 39.6682
+      },
+      "pricePerHour": 3000,
+      "amenities": [
+        "Beach View",
+        "Showers",
+        "Parking"
+      ],
+      "rating": 4.2,
+      "images": [
+        "/assets/turf2.jpg"
+      ],
+      "availability": [
+        {
+          "date": "2025-11-16",
+          "slots": [
+            "09:00",
+            "11:00",
+            "15:00"
+          ]
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": 2,
+      "turfId": 1,
+      "date": "2025-11-15",
+      "slot": "14:00",
+      "status": "confirmed"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "1",
+      "name": "Nairobi Cup",
+      "location": "Nairobi, Kenya",
+      "prizePool": 500000,
+      "entryFee": 1000,
+      "startDate": "2025-11-20",
+      "endDate": "2025-11-25",
+      "status": "upcoming"
+    },
+    {
+      "id": "2",
+      "name": "Mombasa Beach Tournament",
+      "location": "Mombasa, Kenya",
+      "prizePool": 300000,
+      "entryFee": 800,
+      "startDate": "2025-11-18",
+      "endDate": "2025-11-22",
+      "status": "upcoming"
+    }
+  ],
+  "teams": [
+    {
+      "id": "1",
+      "name": "Gor Mahia",
+      "tournamentId": 1,
+      "members": [
+        "Player1",
+        "Player2"
+      ],
+      "balance": 1000
+    },
+    {
+      "id": "2",
+      "name": "AFC Leopards",
+      "tournamentId": 1,
+      "members": [
+        "Player3",
+        "Player4"
+      ],
+      "balance": 1000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "teamId": 1,
+      "type": "deposit",
+      "amount": 1000,
+      "description": "Tournament entry fee"
+    },
+    {
+      "id": "2",
+      "teamId": 1,
+      "type": "fee",
+      "amount": -50,
+      "description": "Maintenance fee (5%)"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "1",
+      "tournamentId": 1,
+      "homeTeam": "Gor Mahia",
+      "awayTeam": "AFC Leopards",
+      "date": "2025-11-20",
+      "time": "15:00",
+      "venue": "Kasarani Stadium",
+      "status": "upcoming",
+      "score": null
+    }
+  ]
+}
