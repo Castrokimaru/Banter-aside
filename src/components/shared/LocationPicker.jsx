@@ -16,7 +16,7 @@ const LocationPicker = () => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
       <h3 className="text-lg font-semibold mb-2 flex items-center">
-        <span className="mr-2">📍</span>
+        <span className="mr-2"></span>
         Your Location
       </h3>
       {location ? (
