@@ -72,7 +72,7 @@ const UserDashboard = () => {
           <div className="flex items-center space-x-3">
             <span className="text-2xl">💰</span>
             <div>
-              <h3 className="font-semibold text-primary">Wallet: ₵2,500</h3>
+              <h3 className="font-semibold text-primary">Wallet: ksh 2,500</h3>
               <p className="text-sm text-gray-600">Available balance</p>
             </div>
           </div>
