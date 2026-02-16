@@ -28,6 +28,13 @@
       "id": "a5fe",
       "email": "castro.kimaru2@student.moringaschool.com",
       "password": "1234"
+    },
+    {
+      "id": "0f90",
+      "email": "castrokimaru@gmail.com",
+      "password": "41284669@Kim",
+      "teamName": "22",
+      "role": "user"
     }
   ],
   "turfs": [
